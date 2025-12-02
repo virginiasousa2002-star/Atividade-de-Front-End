@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de Pagamento</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1>Folha de Pagamento</h1>
+
+    <label>Nome:</label>
+    <input id="nome" type="text">
+
+    <label>Salário base:</label>
+    <input id="salário" type="text">
+
+    <label>Benefícios:</label>
+    <input id="benefícios" type="text">
+
+    <label>Horas Extras:</label>
+    <input id="horasExtras" type="text"> 
+
+    <label>Descontos:</label>
+    <input id="descontos" type="text">
+
+    <button onclick="adicionar()">Adicionar Funcionário</button>
+
+
+<table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Salário</th>
+                <th>Benefícios</th>
+                <th>Horas Extras</th>
+                <th>Descontos</th>
+                <th>Líquido</th>
+            </tr>
+        </thead>
+    <tbody id="lista"></tbody>
+</table>
+
+
+
+
+    
+</body>
+</html>
